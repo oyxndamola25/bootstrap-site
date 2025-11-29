@@ -1,7 +1,32 @@
+
 :root {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
+
 .card-title {
-  margin-bottom: .5rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.hero-section {
+    text-align: center;
+    padding: 3rem 1rem;
+}
+
+/* Make your profile picture round */
+.profile-pic {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ff69b4; /* cute pink border */
+    margin-bottom: 1rem;
+}
+
+/* Simple footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    color: #777;
 }
